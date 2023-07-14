@@ -1,0 +1,24 @@
+{
+  "name": "rest_ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",    
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p .",
+    "deploy": "npm install && tsc -p ."
+  },
+  "author": "Christapher",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
